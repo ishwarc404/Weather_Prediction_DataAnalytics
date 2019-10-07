@@ -1,6 +1,6 @@
 # Weather_Prediction_DataAnalytics
 
 #Sources
-https://www.ndbc.noaa.gov/ \n
-https://www.ndbc.noaa.gov/measdes.shtml \n
-https://www.ndbc.noaa.gov/?lat=41.545240
+1. https://www.ndbc.noaa.gov/ 
+2. https://www.ndbc.noaa.gov/measdes.shtml 
+3. https://www.ndbc.noaa.gov/?lat=41.545240
