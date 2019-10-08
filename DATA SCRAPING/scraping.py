@@ -4,7 +4,7 @@ import pandas as pd
 import datetime
 
 #comment some of the numbers here out for faster processing
-irenebuoy = ["42060","41043", "41046", "41004", "41013", "41025", "44014", "44009", "44025", "44020"]  # bouynumber array
+irenebuoy = ["42060","41043","41046", "41004", "41013", "41025", "44014", "44009", "44025", "44020"]  # bouynumber array
 year = "2011"  # year
 
 
@@ -22,7 +22,7 @@ for index, row in testdf.iterrows():
             stationdic[ID][1] = stationdic[ID][1].replace('\u00ad', '-')
             stationdic[ID][0] = stationdic[ID][0].replace('\u00ad', '-')
 
-print(stationdic)
+#print(stationdic)
 
 #here we are scraping using requests
 for i in irenebuoy:
@@ -34,7 +34,7 @@ for i in irenebuoy:
     # send a HTTP request to the server and save
     # the HTTP response in a response object called r
 
-    with open(i + ".txt", 'wb') as f:
+    with open("textfiles/"+i + ".txt", 'wb') as f:
 
         # Saving received content as a text file in
         # binary format
@@ -62,7 +62,7 @@ lonfinal = []
 idlistfinal = []
 for i in irenebuoy:
 
-    f = open(i + '.txt', 'r')
+    f = open("textfiles/"+i + '.txt', 'r')
 
     windspeed = []
     winddir = []
@@ -198,5 +198,5 @@ for index , row in maindf.iterrows():
 
 
 
-maindf.to_csv("IRENECSV.csv")
+maindf.to_csv("final_csv/IRENECSV.csv")
 #final CSV with the data
