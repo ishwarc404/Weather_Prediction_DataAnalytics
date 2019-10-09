@@ -23,3 +23,10 @@ and the CENTRAL PACIFIC HURRICANE CENTER give an accurate prediction about the f
 upto 48 hours before. In most of the cases 2-5 days aren't enough for entire cities to prepare themselves for a hurricane. This is why
 an early and accurate prediction of such calamities is very important.
 
+
+6. Proposed problem statement with the specific issue you intend to address
+Trying to predict the occurance/formation of a hurricane over the seas using both recent and historical data obtained
+from the National Oceanic and Atmospheric Administration's sea buoy data atleast 7-10 days in advance. Forcasting right and 
+forcasting early will be the goal as time is a very crucial factor which plays a vital role while taking appropriate 
+preventive measures.
+
