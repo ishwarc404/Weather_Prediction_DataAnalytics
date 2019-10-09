@@ -1,0 +1,25 @@
+#Litrature Survey for the project - Weather Prediction
+
+Objective : Trying to predict the occurance/formation of a hurricane over the seas using both recent and historical data obtained
+from the National Oceanic and Atmospheric Administration webpages. 
+NOAA stores and manages a very extensively detailed database of all the buoy data.
+A buoy is a floating device that can have many purposes.Sea buoys very frequently measure various 
+
+
+Problem Statement: Trying to predict the occurance/formation of a hurricane over the seas using both recent and historical data obtained
+from the National Oceanic and Atmospheric Administration's sea buoy data.
+
+Data: Data for our project consists of historical and realtime buoy data which is available on the NOAA's website seperately for each
+buoy. We are currently foccusing on the hurricane "Irene". Hence we have a list of all the buoys which were in the trajectory of this
+particular hurricane. Using the historical data of 2011, we want to develop a model, which predicts the occurance of an hurricane.
+
+
+format:
+
+4. Introduction to the context of the problem (why is it important?)
+Hurricanes are one of the must destructive natural calamities. Category 5 hurricanes have costed thousands of human lives and upto
+a maximum of 125 billion dollers in property loss. Many of the goverment operated hurricane management centres like THE NATIONAL HURRICANE CENTER
+and the CENTRAL PACIFIC HURRICANE CENTER give an accurate prediction about the formation and the trajectory of the hurricanes using satellite imaging
+upto 48 hours before. In most of the cases 2-5 days aren't enough for entire cities to prepare themselves for a hurricane. This is why
+an early and accurate prediction of such calamities is very important.
+
