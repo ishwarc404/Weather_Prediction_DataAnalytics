@@ -1,20 +1,20 @@
-#Litrature Survey for the project - Weather Prediction
+#Literature Survey for the project - Weather Prediction
 
-Objective : Trying to predict the occurance/formation of a hurricane over the seas using both recent and historical data obtained
+Objective : Trying to predict the occurrence/formation of a hurricane over the seas using both recent and historical data obtained
 from the National Oceanic and Atmospheric Administration webpages. 
 NOAA stores and manages a very extensively detailed database of all the buoy data.
 A buoy is a floating device that can have many purposes.Sea buoys very frequently measure various 
 
 
-Problem Statement: Trying to predict the occurance/formation of a hurricane over the seas using both recent and historical data obtained
+Problem Statement: Trying to predict the occurrence/formation of a hurricane over the seas using both recent and historical data obtained
 from the National Oceanic and Atmospheric Administration's sea buoy data.
 
-Data: Data for our project consists of historical and realtime buoy data which is available on the NOAA's website seperately for each
-buoy. We are currently foccusing on the hurricane "Irene". 
+Data: Data for our project consists of historical and realtime buoy data which is available on the NOAA's website separately for each
+buoy. We are currently focussing on the hurricane "Irene". 
 https://en.wikipedia.org/wiki/Hurricane_Irene
-Hurricane Irene was a large and destructive tropical cyclone which affected much of the Caribbean and East Coast of the United States during late August 2011. The ninth named storm, first hurricane, and first major hurricane of the 2011 Atlantic hurricane season, Irene originated from a well-defined Atlantic tropical wave that began showing signs of organization east of the Lesser Antilles. Due to development of atmospheric convection and a closed center of circulation, the system was designated as Tropical Storm Irene on August 20, 2011. After intensifying, Irene made landfall in St. Croix as a strong tropical storm later that day. Early on August 21, the storm made a second landfall in Puerto Rico. While crossing the island, Irene strengthened into a Category 1 hurricane. The storm paralleled offshore of Hispaniola, continuing to slowly intensify in the process. Shortly before making four landfalls in the Bahamas, Irene peaked as a 120 mph (190 km/h) Category 3 hurricane.
+Hurricane Irene was a large and destructive tropical cyclone which affected much of the Caribbean and East Coast of the United States during late August 2011. The ninth named storm, first hurricane, and first major hurricane of the 2011 Atlantic hurricane season, Irene originated from a well-defined Atlantic tropical wave that began showing signs of organisation east of the Lesser Antilles. Due to development of atmospheric convection and a closed centre of circulation, the system was designated as Tropical Storm Irene on August 20, 2011. After intensifying, Irene made landfall in St. Croix as a strong tropical storm later that day. Early on August 21, the storm made a second landfall in Puerto Rico. While crossing the island, Irene strengthened into a Category 1 hurricane. The storm paralleled offshore of Hispaniola, continuing to slowly intensify in the process. Shortly before making four landfalls in the Bahamas, Irene peaked as a 120 mph (190 km/h) Category 3 hurricane.
 
-We have a list of all the buoys which were in the trajectory of this particular hurricane. Using the historical data of 2011, we want to develop a model, which predicts the occurance of a hurricane.
+We have a list of all the buoys which were in the trajectory of this particular hurricane. Using the historical data of 2011, we want to develop a model, which predicts the occurrence of a hurricane. The attributes being studied are wave period, wave direction, wave height, latitude, longitude, wind direction, wind direction, wind speed and pressure.
 Sources :
 National Data Buoy Centre,National Oceanic and Atmospheric Administration, October,2019.[Online].Available:https://www.ndbc.noaa.gov/
 Measurement Descriptions and Units,National Oceanic and Atmospheric Administration,October,2019.[Online].Available:https://www.ndbc.noaa.gov/measdes.shtml
@@ -51,9 +51,9 @@ This outlook is based on 1) predictions of large-scale climate factors known to 
 
 
 6. Proposed problem statement with the specific issue you intend to address
-Trying to predict the occurance/formation of a hurricane over the seas using both recent and historical data obtained
-from the National Oceanic and Atmospheric Administration's sea buoy data atleast 7-10 days in advance. Forcasting right and 
-forcasting early will be the goal as time is a very crucial factor which plays a vital role while taking appropriate 
+Trying to predict the occurrence/formation of a hurricane over the seas using both recent and historical data obtained
+from the National Oceanic and Atmospheric Administration's sea buoy data atleast 7-10 days in advance. Forecasting right and 
+forecasting early will be the goal as time is a very crucial factor which plays a vital role while taking appropriate 
 preventive measures.
 
 5. What have others done to solve it - critique others' approach and cite the work
@@ -104,6 +104,9 @@ the paths of hurricanes since the early 1950’s.  They issue 120 hour, 96 hour,
 The error has also decreased over the years as models become more accurate (NOAA, 2004).  Despite becoming more accurate, 
 the error is still relatively large.
 
- 
+7.Our aim is to predict formation of hurricane accurately as early as possible. Since hurricane Irene was one of the largest and most destructive hurricanes, 
+the aim is to observe the changes in weather data around the time when it occurred and fit an appropriate model to predict future occurrences in that area.
+
+
 
  
