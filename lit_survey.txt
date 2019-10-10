@@ -10,18 +10,44 @@ Problem Statement: Trying to predict the occurance/formation of a hurricane over
 from the National Oceanic and Atmospheric Administration's sea buoy data.
 
 Data: Data for our project consists of historical and realtime buoy data which is available on the NOAA's website seperately for each
-buoy. We are currently foccusing on the hurricane "Irene". Hence we have a list of all the buoys which were in the trajectory of this
-particular hurricane. Using the historical data of 2011, we want to develop a model, which predicts the occurance of an hurricane.
+buoy. We are currently foccusing on the hurricane "Irene". 
+https://en.wikipedia.org/wiki/Hurricane_Irene
+Hurricane Irene was a large and destructive tropical cyclone which affected much of the Caribbean and East Coast of the United States during late August 2011. The ninth named storm, first hurricane, and first major hurricane of the 2011 Atlantic hurricane season, Irene originated from a well-defined Atlantic tropical wave that began showing signs of organization east of the Lesser Antilles. Due to development of atmospheric convection and a closed center of circulation, the system was designated as Tropical Storm Irene on August 20, 2011. After intensifying, Irene made landfall in St. Croix as a strong tropical storm later that day. Early on August 21, the storm made a second landfall in Puerto Rico. While crossing the island, Irene strengthened into a Category 1 hurricane. The storm paralleled offshore of Hispaniola, continuing to slowly intensify in the process. Shortly before making four landfalls in the Bahamas, Irene peaked as a 120 mph (190 km/h) Category 3 hurricane.
+
+We have a list of all the buoys which were in the trajectory of this particular hurricane. Using the historical data of 2011, we want to develop a model, which predicts the occurance of a hurricane.
+Sources :
+National Data Buoy Centre,National Oceanic and Atmospheric Administration, October,2019.[Online].Available:https://www.ndbc.noaa.gov/
+Measurement Descriptions and Units,National Oceanic and Atmospheric Administration,October,2019.[Online].Available:https://www.ndbc.noaa.gov/measdes.shtml
+
 
 
 format:
 
 4. Introduction to the context of the problem (why is it important?)
 Hurricanes are one of the must destructive natural calamities. Category 5 hurricanes have costed thousands of human lives and upto
-a maximum of 125 billion dollers in property loss. Many of the goverment operated hurricane management centres like THE NATIONAL HURRICANE CENTER
-and the CENTRAL PACIFIC HURRICANE CENTER give an accurate prediction about the formation and the trajectory of the hurricanes using satellite imaging
+a maximum of 125 billion dollars in property loss. Many of the government operated hurricane management centres like THE NATIONAL HURRICANE CENTRE
+and the CENTRAL PACIFIC HURRICANE CENTRE give an accurate prediction about the formation and the trajectory of the hurricanes using satellite imaging
 upto 48 hours before. In most of the cases 2-5 days aren't enough for entire cities to prepare themselves for a hurricane. This is why
 an early and accurate prediction of such calamities is very important.
+
+
+5.https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml
+The updated 2019 Atlantic hurricane Season outlook is an official product of the National Oceanic and Atmospheric Administration (NOAA) Climate Prediction Center (CPC). The outlook is produced in collaboration with hurricane experts from the National Hurricane Center (NHC) and the Hurricane Research Division (HRD). The Atlantic hurricane region includes the North Atlantic Ocean, Caribbean Sea, and Gulf of Mexico.
+Interpretation of NOAA's Atlantic hurricane season outlook:
+This outlook is a general guide to the expected overall activity during the hurricane season. It is not a seasonal hurricane landfall forecast, and it does not predict levels of activity for any particular location.
+
+Preparedness:
+Hurricane-related disasters can occur whether the season is active or relatively quiet. It only takes one hurricane (or tropical storm) to cause a disaster. It is crucial that residents, businesses, and government agencies of coastal and near-coastal regions prepare for every hurricane season regardless of this, or any other, seasonal outlook. The Federal Emergency Management Agency (FEMA), the NHC, the Small Business Administration, and the American Red Cross all provide important hurricane preparedness information on their web sites.
+
+NOAA does not make seasonal hurricane landfall predictions:
+NOAA does not make seasonal hurricane landfall predictions. Hurricane landfalls are largely determined by the weather patterns in place as the hurricane approaches, which are only predictable when the storm is within several days of making landfall.
+
+Nature of this Outlook and the "likely" ranges of activity:
+This outlook is probabilistic, meaning the stated "likely" ranges of activity have a certain likelihood of occurring. The seasonal activity is expected to fall within these ranges in 7 out of 10 seasons with similar climate conditions and uncertainties to those expected this year. The ranges do not represent the total possible activity seen in past similar years.
+
+This outlook is based on 1) predictions of large-scale climate factors known to influence seasonal hurricane activity, and 2) climate models that directly predict seasonal hurricane activity.
+
+
 
 
 6. Proposed problem statement with the specific issue you intend to address
