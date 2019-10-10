@@ -30,3 +30,54 @@ from the National Oceanic and Atmospheric Administration's sea buoy data atleast
 forcasting early will be the goal as time is a very crucial factor which plays a vital role while taking appropriate 
 preventive measures.
 
+5. What have others done to solve it - critique others' approach and cite the work
+(a) assumptions made, if any
+(b) approach used - a summary
+(c) summary of the results reported
+(d) any limitations reported?
+(e) any lacuna in their approach/ evaluation that you inferred?
+
+Making predictions
+ref: https://theconversation.com/how-meteorologists-predict-the-next-big-hurricane-102827
+ref: https://www.wunderground.com/cat6/nhc-track-forecasts-best-ever-2017-no-improvement-intensity-forecasts
+ref: http://web.mit.edu/12.000/www/m2010/teams/neworleans1/predicting%20hurricanes.htm
+
+
+Hurricane forecasts have traditionally focused on predicting a storm’s track and intensity. 
+The track and size of the storm determine which areas may be hit. 
+To do so, forecasters use models – essentially software programs, often run on large computers.
+Unfortunately, no single forecast model is consistently better than other models at making these predictions. 
+Sometimes these forecasts show dramatically different paths, diverging by hundreds of miles. Other times, 
+the models are in close agreement. In some cases, even when models are in close agreement, the small differences in track have very 
+large differences in storm surge, winds and other factors that impact damage and evacuations.
+
+So, forecasters use a collection of models to determine a likely range of tracks and intensities. 
+
+Such models include the NOAA’s Global Forecast System and European Centre for Medium-Range Weather Forecasts global models.
+The FSU Superensemble was developed by a group at our university, led by meteorologist T.N. Krishnamurti, in the early 2000s. 
+The Superensemble combines output from a collection of models, giving more weight to the models that showed better predicted past 
+weather events, such as Atlantic tropical cyclone events.
+
+
+limitations:
+Over the past decade, track forecasts have steadily improved. 
+A plethora of observations – from satellites, buoys and aircraft flown into the developing storm – allow scientists to better 
+understand the environment around a storm, and in turn improve their models. Some models have improved by as much as 40 percent 
+for some storms.
+However, it’s extremely difficult for a model to estimate the maximum wind speed of a tropical cyclone at any given future time. 
+Models are inexact in their descriptions of the entire state of the atmosphere and ocean at the start time of the model. 
+Small-scale features of tropical cyclones – like sharp gradients in rainfall, surface winds and wave heights within and outside 
+of the tropical cyclones – are not as reliably captured in the forecast models.
+
+What are the problems with the current hurricane predictions?
+Ref: http://web.mit.edu/12.000/www/m2010/teams/neworleans1/predicting%20hurricanes.htm
+There have been great strides forward made in the science of forecasting hurricanes, 
+but there is still a lot to do.  One major problem is accuracy.  The National Hurricane Center has been forecasting 
+the paths of hurricanes since the early 1950’s.  They issue 120 hour, 96 hour, 72 hour, 48 hour, 24 hour, and 12 hour forecasts.  
+(The 120 hour and 96 hour forecasts were introduced in 2003.)  The error decreases as the time before landfall decreases.  
+The error has also decreased over the years as models become more accurate (NOAA, 2004).  Despite becoming more accurate, 
+the error is still relatively large.
+
+ 
+
+ 
