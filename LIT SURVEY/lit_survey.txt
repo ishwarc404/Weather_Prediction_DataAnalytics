@@ -1,9 +1,8 @@
 #Literature Survey for the project - Weather Prediction
-
-Objective : Trying to predict the occurrence/formation of a hurricane over the seas using both recent and historical data obtained
-from the National Oceanic and Atmospheric Administration webpages. 
-NOAA stores and manages a very extensively detailed database of all the buoy data.
-A buoy is a floating device that can have many purposes.Sea buoys very frequently measure various 
+Forecasting of hurricanes using historical buoy data
+Objective : The goal of our model is to predict the occurrence/formation of a hurricane over the seas using both recent and historical data obtained
+from the National Oceanic and Atmospheric Administration .Sea buoys very frequently measure various weather changes taking places over
+the seas which affect the formation of hurricanes and the corresponding data can be very cruicial if modeled right.
 
 
 Problem Statement: Trying to predict the occurrence/formation of a hurricane over the seas using both recent and historical data obtained
@@ -32,13 +31,15 @@ an early and accurate prediction of such calamities is very important.
 
 
 5.https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml
-The updated 2019 Atlantic hurricane Season outlook is an official product of the National Oceanic and Atmospheric Administration (NOAA) Climate Prediction Center (CPC). The outlook is produced in collaboration with hurricane experts from the National Hurricane Center (NHC) and the Hurricane Research Division (HRD). The Atlantic hurricane region includes the North Atlantic Ocean, Caribbean Sea, and Gulf of Mexico.
+The updated 2019 Atlantic hurricane Season outlook is an official product of the National Oceanic and Atmospheric Administration (NOAA) Climate Prediction Center (CPC). 
+The outlook is produced in collaboration with hurricane experts from the National Hurricane Center (NHC) and the 
+Hurricane Research Division (HRD). The Atlantic hurricane region includes the North Atlantic Ocean, Caribbean Sea, and Gulf of Mexico.
 Interpretation of NOAA's Atlantic hurricane season outlook:
-This outlook is a general guide to the expected overall activity during the hurricane season. It is not a seasonal hurricane landfall forecast, and it does not predict levels of activity for any particular location.
+This outlook is a general guide to the expected overall activity during the hurricane season. 
+It is not a seasonal hurricane landfall forecast, and it does not predict levels of activity for any particular location.
 
 Preparedness:
 Hurricane-related disasters can occur whether the season is active or relatively quiet. It only takes one hurricane (or tropical storm) to cause a disaster. It is crucial that residents, businesses, and government agencies of coastal and near-coastal regions prepare for every hurricane season regardless of this, or any other, seasonal outlook. The Federal Emergency Management Agency (FEMA), the NHC, the Small Business Administration, and the American Red Cross all provide important hurricane preparedness information on their web sites.
-
 NOAA does not make seasonal hurricane landfall predictions:
 NOAA does not make seasonal hurricane landfall predictions. Hurricane landfalls are largely determined by the weather patterns in place as the hurricane approaches, which are only predictable when the storm is within several days of making landfall.
 
@@ -51,7 +52,7 @@ This outlook is based on 1) predictions of large-scale climate factors known to 
 
 
 6. Proposed problem statement with the specific issue you intend to address
-Trying to predict the occurrence/formation of a hurricane over the seas using both recent and historical data obtained
+Through our model, we are trying to predict the occurrence/formation of a hurricane over the seas using both recent and historical data obtained
 from the National Oceanic and Atmospheric Administration's sea buoy data atleast 7-10 days in advance. Forecasting right and 
 forecasting early will be the goal as time is a very crucial factor which plays a vital role while taking appropriate 
 preventive measures.
@@ -90,7 +91,7 @@ Over the past decade, track forecasts have steadily improved.
 A plethora of observations – from satellites, buoys and aircraft flown into the developing storm – allow scientists to better 
 understand the environment around a storm, and in turn improve their models. Some models have improved by as much as 40 percent 
 for some storms.
-However, it’s extremely difficult for a model to estimate the maximum wind speed of a tropical cyclone at any given future time. 
+However, it’s extremely difficult for a model to estimate the occurance and maximum wind speed of a tropical cyclone at any given future time. 
 Models are inexact in their descriptions of the entire state of the atmosphere and ocean at the start time of the model. 
 Small-scale features of tropical cyclones – like sharp gradients in rainfall, surface winds and wave heights within and outside 
 of the tropical cyclones – are not as reliably captured in the forecast models.
@@ -105,8 +106,10 @@ The error has also decreased over the years as models become more accurate (NOAA
 the error is still relatively large.
 
 7.Our aim is to predict formation of hurricane accurately as early as possible. Since hurricane Irene was one of the largest and most destructive hurricanes, 
-the aim is to observe the changes in weather data around the time when it occurred and fit an appropriate model to predict future occurrences in that area.
-
+the aim is to observe the changes in weather data around the time when it occurred and fit an appropriate model to predict future occurrences in the surrounding 
+areas. Our approach involves using the data obtained from the buoys affected by hurricane Irene and analyise the data leading up to the
+event. Our main focus would be to understand pressure patterns which are observed during the formation of a hurricane.Multiple such pressure patterns will be analysed and used,
+through which we intend to "train" our model and use it to make informed descisions about future occurances of such events.
 
 
  
