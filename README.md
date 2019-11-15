@@ -9,3 +9,7 @@
 #Run
 1. Make sure pandas and request libraries are installed
 2. Run scraping.py in /DATA SCRAPING to scrape txt data and combine them all into a csv
+
+
+#Text files and CSVs : 44009 and 44065
+Check these out
