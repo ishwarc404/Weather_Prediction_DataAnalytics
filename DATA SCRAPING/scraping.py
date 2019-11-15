@@ -4,7 +4,7 @@ import pandas as pd
 import datetime
 
 #comment some of the numbers here out for faster processing
-irenebuoy = ["44009"] #["42060","41046","41010", "41013","41025","44009","44065"]  # bouynumber array
+irenebuoy = ["44065"] #["42060","41046","41010", "41013","41025","44009","44065"]  # bouynumber array
 dates = [23,25,26,27,28,28,28]
 year = "2011"  # year
 
@@ -173,17 +173,17 @@ for buoy in irenebuoy:
 
     # MAKING A NEW COLUMN CALLED DATE AND TIME. THIS WILL BE USED FOR LABELLING
 
-#     for index, rows in maindf.iterrows():
-#         maindf.loc[index, 'datetime'] = datetime.datetime(
-#             maindf.loc[index, 'year'], maindf.loc[index,'month'], maindf.loc[index, 'day'],
-#             maindf.loc[index, 'hour'], maindf.loc[index, 'mins'], 0)
+    for index, rows in maindf.iterrows():
+        maindf.loc[index, 'datetime'] = datetime.datetime(
+            maindf.loc[index, 'year'], maindf.loc[index,'month'], maindf.loc[index, 'day'],
+            maindf.loc[index, 'hour'], maindf.loc[index, 'mins'], 0)
 
-#     maindf = maindf.sort_values(['datetime'])
-#     maindf['hurrthreat'] = 0
-#     for index, rows in maindf.iterrows():
-#         i = maindf.loc[index, 'datetime']
-#         if ((i.day > 1) and (i.day < 29) and (i.month == 8)):
-#             maindf.loc[index, 'hurrthreat'] = 1
+    maindf = maindf.sort_values(['datetime'])
+    maindf['hurrthreat'] = 0
+    for index, rows in maindf.iterrows():
+        i = maindf.loc[index, 'datetime']
+        if ((i.day > 20) and (i.day < 31) and (i.month == 8)):
+            maindf.loc[index, 'hurrthreat'] = 1
 #     maindf['DaysTH'] = 0
 #     j = datetime.datetime(2011,8,29)
 #     for index , row in maindf.iterrows():

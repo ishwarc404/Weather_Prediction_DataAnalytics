@@ -13,3 +13,5 @@
 
 #Text files and CSVs : 44009 and 44065
 Check these out
+
+#note : for now we have to scrape 1 by 1 or else length error
