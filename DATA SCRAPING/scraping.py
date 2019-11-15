@@ -4,7 +4,7 @@ import pandas as pd
 import datetime
 
 #comment some of the numbers here out for faster processing
-irenebuoy = ["44065"] #["42060","41046","41010", "41013","41025","44009","44065"]  # bouynumber array
+irenebuoy = ["44065"] #["42060","41046","41010", "41013","41025","44014","44009","44065"]  # bouynumber array
 dates = [23,25,26,27,28,28,28]
 year = "2011"  # year
 
@@ -25,23 +25,23 @@ for index, row in testdf.iterrows():
 
 print(stationdic)
 
-# here we are scraping using requests
-for i in irenebuoy:
-    text_url = "https://www.ndbc.noaa.gov/view_text_file.php?filename=" + \
-        i + "h" + year + ".txt.gz&dir=data/historical/stdmet/"
+# # here we are scraping using requests
+# for i in irenebuoy:
+#     text_url = "https://www.ndbc.noaa.gov/view_text_file.php?filename=" + \
+#         i + "h" + year + ".txt.gz&dir=data/historical/stdmet/"
 
-    r = requests.get(text_url)  # create HTTP response object
+#     r = requests.get(text_url)  # create HTTP response object
 
-    # send a HTTP request to the server and save
-    # the HTTP response in a response object called r
+#     # send a HTTP request to the server and save
+#     # the HTTP response in a response object called r
 
-    with open("textfiles/"+i + ".txt", 'wb') as f:
+#     with open("textfiles/"+i + ".txt", 'wb') as f:
 
-        # Saving received content as a text file in
-        # binary format
-        # write the contents of the response (r.content)
-        # to a new file in binary mode.
-        f.write(r.content)
+#         # Saving received content as a text file in
+#         # binary format
+#         # write the contents of the response (r.content)
+#         # to a new file in binary mode.
+#         f.write(r.content)
 
 
 # declaring a new dataframe to store all the accumulated data
