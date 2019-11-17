@@ -49,7 +49,6 @@ def NBmodel(cols, pred):
                 xticklabels=names, yticklabels=names)
     plt.xlabel('Truth')
     plt.ylabel('Predicted')
-    plt.show()
 
 
 cols = ['pressure', 'wavedirection', 'waveheight']
