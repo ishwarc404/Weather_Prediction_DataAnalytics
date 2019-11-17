@@ -184,6 +184,9 @@ for buoy in irenebuoy:
         i = maindf.loc[index, 'datetime']
         if ((i.day > 20) and (i.day < 31) and (i.month == 8)):
             maindf.loc[index, 'hurrthreat'] = 1
+
+
+    
 #     maindf['DaysTH'] = 0
 #     j = datetime.datetime(2011,8,29)
 #     for index , row in maindf.iterrows():
