@@ -21,7 +21,9 @@ import seaborn as sns; sns.set()
 from sklearn.metrics import confusion_matrix
 
 
-df = pd.read_csv('IRENECSV.csv')
+df1 = pd.read_csv('44065_clean.csv')
+df2 = pd.read_csv('44009_clean.csv')
+df = df1.append(df2)
 df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
 print(df.columns)
 
@@ -52,7 +54,7 @@ def NBmodel(cols, pred):
     plt.show()
 
 
-cols = ['pressure', 'wavedirection', 'waveheight']
+cols = ['pressure','windspeed']
 pred = ['hurrthreat']
 
 

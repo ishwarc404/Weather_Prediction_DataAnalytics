@@ -16,7 +16,9 @@ for i in df['datetime'][5600:5900]:
 
 Y = df['WindDir'][5600:5900]
 
-
+# for i in df['datetime'][5500:5700]:
+#     X.append(datetime.strptime(i,"%Y-%m-%d %H:%M:%S"))
+# Y = df['WindDir'][5500:5700]
 
 fig, ax = plt.subplots()
 
